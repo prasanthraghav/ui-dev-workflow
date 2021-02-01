@@ -1,0 +1,36 @@
+{
+    "plugins": [
+        {
+            "name": "@zeplin/cli-connect-react-plugin"
+        },
+        {
+            "name": "@zeplin/cli-connect-storybook-plugin",
+            "config": {
+                "url": "http://localhost:6006",
+                "startScript": "storybook"
+            }
+        }
+    ],
+    "projects": [
+        "6016d340860b2414cd0d2c15"
+    ],
+    "styleguides": [],
+    "components": [
+        {
+            "path": "src/components/TestButton.js",
+            "zeplinNames": [
+                "test-button"
+            ],
+            "storybook": {
+                "kind": "testButton",
+                "stories": [
+                    "Primary"
+                ]
+            }
+        }
+    ],
+    "github": {
+        "repository": "prasanthraghav/ui-dev-workflow",
+        "branch": "main"
+    }
+}
