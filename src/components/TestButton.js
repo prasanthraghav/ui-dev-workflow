@@ -1,9 +1,9 @@
 import React from 'react'
-import './style.css'
+import './TestButton.css'
 
 function TestButton() {
     return (
-        <button className="test-button button-text">Test Button</button>
+        <button className="test-button">TestButton</button>
     )
 }
 

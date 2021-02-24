@@ -1,0 +1,15 @@
+.test-button {
+  width: 332px;
+  height: 95px;
+  padding: 26px 91px 27px;
+  background-color: #800000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}

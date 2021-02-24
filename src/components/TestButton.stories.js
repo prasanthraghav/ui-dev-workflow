@@ -1,12 +1,14 @@
+// Button.stories.js
+
 import React from 'react';
 
 import TestButton from './TestButton';
 
 export default {
-  title: 'testButton',
+  title: 'Components/Button',
   component: TestButton
 }
 
-const Template = () => <TestButton />;
+export const Primary = () => <TestButton primary label="Button"/>;
 
-export const Primary = Template.bind({});
+Primary.storyName = 'I am the primary';
